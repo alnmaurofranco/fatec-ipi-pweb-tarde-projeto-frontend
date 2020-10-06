@@ -1000,7 +1000,20 @@ footer a:hover {
   background: rgba(0, 0, 0, 0.6);
 }
 
+.search__img {
+  width: 100%;
+  height: 60vh;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+
 @media (max-width: 780px) {
+  .search__img {
+    margin-left: 2rem;
+    width: 90%;
+    margin-bottom: 12rem;
+  }
   /* Carrinho */
   .cart-table-header {
     margin-left: 0;
