@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>MarketInfo - Detalhe do produto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top nav-theme">
+            <div class="container">
+                <a href="index.html" class="logo">MarketInfo</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07"
+                    aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fas fa-align-justify"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarsExample07">
+                    <form class="form-inline">
+                        <div class="search__container">
+                            <input class="form-control" type="text" placeholder="Faça uma busca por mais produtos...">
+                            <button class="search__btn" type="submit">
+                                <svg width="20" height="20" viewBox="0 0 38 38" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M37.4805 32.8566L30.0809 25.457C29.7469 25.123 29.2941 24.9375 28.8191 24.9375H27.6094C29.6578 22.3176 30.875 19.0223 30.875 15.4375C30.875 6.90977 23.9652 0 15.4375 0C6.90977 0 0 6.90977 0 15.4375C0 23.9652 6.90977 30.875 15.4375 30.875C19.0223 30.875 22.3176 29.6578 24.9375 27.6094V28.8191C24.9375 29.2941 25.123 29.7469 25.457 30.0809L32.8566 37.4805C33.5543 38.1781 34.6824 38.1781 35.3727 37.4805L37.473 35.3801C38.1707 34.6824 38.1707 33.5543 37.4805 32.8566ZM15.4375 24.9375C10.1902 24.9375 5.9375 20.6922 5.9375 15.4375C5.9375 10.1902 10.1828 5.9375 15.4375 5.9375C20.6848 5.9375 24.9375 10.1828 24.9375 15.4375C24.9375 20.6848 20.6922 24.9375 15.4375 24.9375Z"
+                                        fill="#E8211A" />
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="carrinho.html" class="btn btn-transparent-cart btn-mt">
+                                <i class="fas fa-shopping-bag fa-2x"></i>
+                                <span class="badge badge-info">2</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="btn btn-transparent-cart btn-mt dropdown-toggle" href="#" id="dropdown07"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="far fa-user-circle fa-2x"></i>
+                                Conta</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown07">
+                                <a class="dropdown-item" href="login.html"><i class="fas fa-sign-in-alt mr-2"></i>Fazer
+                                    login</a>
+                                <hr>
+                                <a class="dropdown-item" href="cadastro.html"><i
+                                        class="fas fa-user-plus mr-2"></i>Cadastre-se</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div><!-- container -->
+        </nav>
+        <!--nav-->
+        <div class="nav-scroller shadow-sm">
+            <nav class="nav nav-underline">
+                <a class="nav-link active" href="index.html">Pagina Inicial</a>
+                <a class="nav-link" href="#">Departamentos</a>
+                <a class="nav-link" href="#">Mais vendidos</a>
+                <a class="nav-link" href="#">Quem somos</a>
+                <a class="nav-link" href="#">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main role="main">
+        <div class="container">
+            <div class="title__section">
+                <h2>Detalhe do Produto</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="product-slider">
+                        <div class="item">
+                            <img src="./assets/img/note.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="product-dtl">
+                        <div class="product-info">
+                            <div class="product-name">Samsung Book X50 Windows 10 Home Core I7 8gb 1t Hd</div>
+                            <div class="product-price-discount"><span>R$ 5.990</span></div>
+                        </div>
+                        <p>O Samsung Book é um notebook voltado para pessoas dinâmicas que buscam um computador que
+                            ofereça alto desempenho aliado
+                            a um design moderno e elegante, e que conta com avançadas características de segurança. A
+                            placa de vídeo NVIDIA®
+                            GeForce® oferece alto desempenho gráfico para aplicações como jogos e softwares 3D.</p>
+                        <div class="product-count">
+                            <label for="size">Quantidade</label>
+                            <form action="#">
+                                <select name="" id="">
+                                    <option value="">1</option>
+                                    <option value="">2</option>
+                                    <option value="">3</option>
+                                    <option value="">4</option>
+                                    <option value="">5</option>
+                                </select>
+                            </form>
+                            <a href="carrinho.html" class="btn-round">Adicionar ao carrinho</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-info-tabs">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="description-tab" data-toggle="tab" href="#caracteristica"
+                            role="tab" aria-controls="caracteristica" aria-selected="true">Características</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-panel" id="description" role="tabpanel" aria-labelledby="description-tab">
+                        <div class="row">
+                            <div class="col-md-6">
+                                Marca:
+                                <strong>Samsung</strong><br>
+                                Modelo:
+                                <strong>Notebook</strong><br>
+                                Linha:
+                                <strong>Expert</strong><br>
+                                Memória RAM:
+                                <strong>8 GB</strong><br>
+                                Nome do sistema operacional:
+                                <strong>Windows</strong><br>
+                                Marca do processador:
+                                <strong>Intel</strong><br>
+                            </div>
+                            <div class="col-md-6">
+                                Tamanho da tela:
+                                <strong>15.6 "</strong><br>
+                                Tipo de tela:
+                                <strong>LED</strong><br>
+                                Portas de vídeo:
+                                <strong>HDMI</strong><br>
+                                Quantidade de alto-falantes:
+                                <strong>2</strong><br>
+                                Quantidade de portas:
+                                <strong>USB</strong><br>
+                                Peso:
+                                <strong>1.95 kg</strong><br>
+                                Modos de som:
+                                <strong>Stereo</strong><br>
+                                Tipos de portas:
+                                <strong>USB 2.0,3.0</strong><br> Quantidade de slots para a memória RAM:
+                                <strong>1</strong><br>
+                                Capacidade máxima suportada da memória RAM:
+                                <strong>8 GB</strong><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="title__section">Quem viu este produto também comprou</div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single-publication">
+                        <figure>
+                            <a href="product-detail.html">
+                                <img src="./assets/img/note.jpg" alt="">
+                            </a>
+                        </figure>
+
+                        <div class="publication-content">
+                            <span class="category">Notebook</span>
+                            <h3><a href="product-detail.html">Samsung Book X50 Windows 10 Home Core I7 8gb 1t Hd</a>
+                            </h3>
+
+                            <h4 class="price"><a href="product-detail.html">R$ 5.699,00</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single-publication">
+                        <figure>
+                            <a href="product-detail.html">
+                                <img src="./assets/img/celular-1.jpg" alt="">
+                            </a>
+                        </figure>
+
+                        <div class="publication-content">
+                            <span class="category">Celular</span>
+                            <h3><a href="product-detail.html">Xiaomi Redmi Note 8 64GB Azul Neptune 4GB RAM 6,3”</a>
+                            </h3>
+                            <h4 class="price"><a href="product-detail.html">R$ 1.952,00</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single-publication">
+                        <figure>
+                            <a href="product-detail.html"><img src="./assets/img/tv.jpg" alt=""></a>
+                        </figure>
+
+                        <div class="publication-content">
+                            <span class="category">TV</span>
+                            <h3><a href="product-detail.html">Smart TV Philco PTV32E20AGBL DLED HD 32"</a></h3>
+                            <h4 class="price"><a href="product-detail.html">R$ 1.099,99</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single-publication">
+                        <figure>
+                            <a href="product-detail.html"><img src="./assets/img/livro.jpg" alt=""></a>
+                        </figure>
+
+                        <div class="publication-content">
+                            <span class="category">Livro</span>
+                            <h3>
+                                <a href="product-detail.html">Livro de Programação Web Com Node E Express</a>
+                            </h3>
+                            <h4 class="price font-bold">
+                                <a href="product-detail.html">R$ 100,00</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- .ROW -->
+        </div>
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <p>COPYRIGHT &copy; 2020 <a href="#">MarketInfo</a>. Todos os direitos reservados. </p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="./assets/js/custom.js"></script>
+    <script src="./assets/js/jquery.slim.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+</body>
+
+</html>

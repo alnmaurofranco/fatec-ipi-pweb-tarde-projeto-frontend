@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>MarketInfo - Esqueceu a senha</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top nav-theme">
+            <div class="container">
+                <a href="index.html" class="logo">MarketInfo</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07"
+                    aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fas fa-align-justify"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarsExample07">
+                    <form class="form-inline">
+                        <div class="search__container">
+                            <input class="form-control" type="text" placeholder="Faça uma busca por mais produtos...">
+                            <button class="search__btn" type="submit">
+                                <svg width="20" height="20" viewBox="0 0 38 38" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M37.4805 32.8566L30.0809 25.457C29.7469 25.123 29.2941 24.9375 28.8191 24.9375H27.6094C29.6578 22.3176 30.875 19.0223 30.875 15.4375C30.875 6.90977 23.9652 0 15.4375 0C6.90977 0 0 6.90977 0 15.4375C0 23.9652 6.90977 30.875 15.4375 30.875C19.0223 30.875 22.3176 29.6578 24.9375 27.6094V28.8191C24.9375 29.2941 25.123 29.7469 25.457 30.0809L32.8566 37.4805C33.5543 38.1781 34.6824 38.1781 35.3727 37.4805L37.473 35.3801C38.1707 34.6824 38.1707 33.5543 37.4805 32.8566ZM15.4375 24.9375C10.1902 24.9375 5.9375 20.6922 5.9375 15.4375C5.9375 10.1902 10.1828 5.9375 15.4375 5.9375C20.6848 5.9375 24.9375 10.1828 24.9375 15.4375C24.9375 20.6848 20.6922 24.9375 15.4375 24.9375Z"
+                                        fill="#E8211A" />
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="#" class="btn btn-transparent-cart btn-mt">
+                                <i class="fas fa-shopping-bag fa-2x"></i>
+                                <span class="badge badge-info">2</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="btn btn-transparent-cart btn-mt dropdown-toggle" href="#" id="dropdown07"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="far fa-user-circle fa-2x"></i>
+                                Conta</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown07">
+                                <a class="dropdown-item" href="login.html"><i class="fas fa-sign-in-alt mr-2"></i>Fazer
+                                    login</a>
+                                <hr>
+                                <a class="dropdown-item" href="cadastro.html"><i
+                                        class="fas fa-user-plus mr-2"></i>Cadastre-se</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div><!-- container -->
+        </nav>
+        <!--nav-->
+        <div class="nav-scroller shadow-sm">
+            <nav class="nav nav-underline">
+                <a class="nav-link active" href="index.html">Pagina Inicial</a>
+                <a class="nav-link" href="#">Departamentos</a>
+                <a class="nav-link" href="#">Mais vendidos</a>
+                <a class="nav-link" href="#">Quem somos</a>
+                <a class="nav-link" href="#">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main role="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <img src="./assets/img/senha_esquecida.svg" alt="" class="img__senha" />
+                </div>
+                <div class="col-lg-10">
+                    <div class="card content__login">
+                        <div class="card-body">
+                            <div class="title__login">
+                                <h2><i class="fas fa-user-circle"></i> Trocar a senha
+                                </h2>
+                                <p>Identifique-se para receber um e-mail com as instruções e o link para criar uma nova
+                                    senha.</p>
+                            </div>
+                            <form>
+                                <div id="msg"></div>
+                                <div class="form-group">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" id="email" class="form__login"
+                                        placeholder="Digite seu e-mail..." required>
+                                    <span id="error" class="invalid-feedback"></span>
+                                </div>
+
+                                <button class="btn-lg btn-block btn-round" onclick="validForgotPassword()"
+                                    type="submit">Enviar
+                                    senha</button>
+                            </form>
+                            <a href="#" class="btn-lg btn-round-primary btn-block">Cancelar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <p>COPYRIGHT &copy; 2020 <a href="#">MarketInfo</a>. Todos os direitos reservados. </p>
+            </div>
+        </footer>
+    </main>
+    <script src="./assets/js/custom.js"></script>
+    <script src="./assets/js/jquery.slim.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+</body>
+
+</html>

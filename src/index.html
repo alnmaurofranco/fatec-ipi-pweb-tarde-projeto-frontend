@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>MarketInfo - Pagina inicial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/hover-min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top nav-theme">
+            <div class="container">
+                <a href="index.html" class="logo">MarketInfo</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07"
+                    aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fas fa-align-justify"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarsExample07">
+                    <form class="form-inline">
+                        <div class="search__container">
+                            <input class="form-control" type="text" placeholder="Faça uma busca por mais produtos...">
+                            <button class="search__btn" type="submit">
+                                <svg width="20" height="20" viewBox="0 0 38 38" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M37.4805 32.8566L30.0809 25.457C29.7469 25.123 29.2941 24.9375 28.8191 24.9375H27.6094C29.6578 22.3176 30.875 19.0223 30.875 15.4375C30.875 6.90977 23.9652 0 15.4375 0C6.90977 0 0 6.90977 0 15.4375C0 23.9652 6.90977 30.875 15.4375 30.875C19.0223 30.875 22.3176 29.6578 24.9375 27.6094V28.8191C24.9375 29.2941 25.123 29.7469 25.457 30.0809L32.8566 37.4805C33.5543 38.1781 34.6824 38.1781 35.3727 37.4805L37.473 35.3801C38.1707 34.6824 38.1707 33.5543 37.4805 32.8566ZM15.4375 24.9375C10.1902 24.9375 5.9375 20.6922 5.9375 15.4375C5.9375 10.1902 10.1828 5.9375 15.4375 5.9375C20.6848 5.9375 24.9375 10.1828 24.9375 15.4375C24.9375 20.6848 20.6922 24.9375 15.4375 24.9375Z"
+                                        fill="#E8211A" />
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="carrinho.html" class="btn btn-transparent-cart btn-mt">
+                                <i class="fas fa-shopping-bag fa-2x"></i>
+                                <span class="badge badge-info">2</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="btn btn-transparent-cart btn-mt dropdown-toggle" href="#" id="dropdown07"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="far fa-user-circle fa-2x"></i>
+                                Conta</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown07">
+                                <a class="dropdown-item" href="login.html"><i class="fas fa-sign-in-alt mr-2"></i>Fazer
+                                    login</a>
+                                <hr>
+                                <a class="dropdown-item" href="cadastro.html"><i
+                                        class="fas fa-user-plus mr-2"></i>Cadastre-se</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div><!-- container -->
+        </nav>
+        <!--nav-->
+        <div class="nav-scroller shadow-sm">
+            <nav class="nav nav-underline">
+                <a class="nav-link active" href="index.html">Pagina Inicial</a>
+                <a class="nav-link" href="#">Departamentos</a>
+                <a class="nav-link" href="#alta">Mais vendidos</a>
+                <a class="nav-link" href="#">Quem somos</a>
+                <a class="nav-link" href="#">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main role="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title__section">Ofertas em alta</div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single-publication">
+                        <figure>
+                            <a href="product-detail.html">
+                                <img src="./assets/img/note.jpg" alt="">
+                            </a>
+                        </figure>
+
+                        <div class="publication-content">
+                            <span class="category">Notebook</span>
+                            <h3><a href="product-detail.html">Samsung Book X50 Windows 10 Home Core I7 8gb 1t Hd</a>
+                            </h3>
+
+                            <h4 class="price"><a href="product-detail.html">R$ 5.699,00</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single-publication">
+                        <figure>
+                            <a href="product-detail.html">
+                                <img src="./assets/img/celular-1.jpg" alt="">
+                            </a>
+                        </figure>
+
+                        <div class="publication-content">
+                            <span class="category">Celular</span>
+                            <h3><a href="product-detail.html">Xiaomi Redmi Note 8 64GB Azul Neptune 4GB RAM 6,3”</a>
+                            </h3>
+                            <h4 class="price"><a href="product-detail.html">R$ 1.952,00</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single-publication">
+                        <figure>
+                            <a href="product-detail.html"><img src="./assets/img/tv.jpg" alt=""></a>
+                        </figure>
+
+                        <div class="publication-content">
+                            <span class="category">TV</span>
+                            <h3><a href="product-detail.html">Smart TV Philco PTV32E20AGBL DLED HD 32"</a></h3>
+                            <h4 class="price"><a href="product-detail.html">R$ 1.099,99</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single-publication">
+                        <figure>
+                            <a href="product-detail.html"><img src="./assets/img/livro.jpg" alt=""></a>
+                        </figure>
+
+                        <div class="publication-content">
+                            <span class="category">Livro</span>
+                            <h3>
+                                <a href="product-detail.html">Livro de Programação Web Com Node E Express</a>
+                            </h3>
+                            <h4 class="price font-bold">
+                                <a href="product-detail.html">R$ 100,00</a>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- .ROW -->
+
+            <!-- DEPARTAMENTOS -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="title__section" id="departamentos">Departamentos</div>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-2">
+                    <div class="card card__categories">
+                        <a href="#">
+                            <div class="card-body">
+                                <i class="fas fa-tv fa-5x card__icon"></i>
+                                <h2 class="card-title card__title">
+                                    TV</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-2">
+                    <div class="card card__categories">
+                        <a href="#">
+                            <div class="card-body">
+                                <i class="fas fa-laptop fa-5x card__icon"></i>
+                                <h2 class="card-title card__title">
+                                    Notebook</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-2">
+                    <div class="card card__categories">
+                        <a href="#">
+                            <div class="card-body">
+                                <i class="fas fa-mobile-alt fa-5x card__icon"></i>
+                                <h2 class="card-title card__title">
+                                    Celular</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-2">
+                    <div class="card card__categories">
+                        <a href="#">
+                            <div class="card-body">
+                                <i class="fas fa-book fa-5x card__icon"></i>
+                                <h2 class="card-title card__title">
+                                    Livro</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div><!-- /.row -->
+
+            <!-- MAIS VENDIDOS -->
+            <div class="row" id="alta">
+                <div class="title__section mx-auto" id="maisvendidos">Mais vendidos</div>
+                <div class="col-md-12">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-3 mb-5">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="./assets/img/note.jpg" class="img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Samsung Book X50 Windows 10 Home Core I7 8gb 1t Hd</h4>
+                                                <p class="item-price"><span>R$ 5,699.00</span></p>
+                                                <a href="#" class="btn btn-primary">Mais detalhes</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 mb-5">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="./assets/img/celular-1.jpg" class="img-fluid"
+                                                    alt="Smartphone Xiaomi Redmi Note 8 64GB Azul Neptune - Blue 4GB RAM 6,3">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Smartphone Xiaomi Redmi Note 8 64GB Azul Neptune 4GB RAM</h4>
+                                                <p class="item-price"><span>R$ 1.952,00</span></p>
+                                                <a href="#" class="btn btn-primary">Mais detalhes</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 mb-5">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="./assets/img/tv.jpg" class="img-fluid"
+                                                    alt="Smart TV Philco PTV32E20AGBL DLED HD 32">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Smart TV Philco PTV32E20AGBL DLED HD 32"</h4>
+                                                <p class="item-price"><span>R$ 1.099,99</span></p>
+                                                <a href="#" class="btn btn-primary">Mais detalhes</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 mb-5">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="./assets/img/livro.jpg" class="img-fluid"
+                                                    alt="Programação Web Com Node E Express - Novatec Editora">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Livro de Programação Web Com Node E Express</h4>
+                                                <p class="item-price"><span>R$ 100,00</span></p>
+                                                <a href="#" class="btn btn-primary">Mais detalhes</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-3 mb-5">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="./assets/img/note.jpg" class="img-fluid" alt="">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Samsung Book X50 Windows 10 Home Core I7 8gb 1t Hd</h4>
+                                                <p class="item-price"><span>R$ 5,699.00</span></p>
+                                                <a href="#" class="btn btn-primary">Mais detalhes</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 mb-5">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="./assets/img/tv-2.jpg" class="img-fluid"
+                                                    alt="Smart TV Philips 50PUG6654/78 LED 4K 50">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Smart TV Philips 50PUG6654/78 LED 4K 50"</h4>
+                                                <p class="item-price"><span>R$ 2.099,99</span></p>
+                                                <a href="#" class="btn btn-primary">Mais detalhes</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 mb-5">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="./assets/img/celular-3.jpg" class="img-fluid"
+                                                    alt="Smartphone Xiaomi Redmi 9a tela 6,53 2gb/32gb 4g, Azul">
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Smartphone Xiaomi Redmi 9a tela 6,53 2gb/32gb 4g, Azul</h4>
+                                                <p class="item-price"><span>R$ 1.399,99</span></p>
+                                                <a href="#" class="btn btn-primary">Mais detalhes</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 mb-5">
+                                        <div class="thumb-wrapper">
+                                            <div class="img-box">
+                                                <img src="./assets/img/celular-2.jpg" class="img-fluid"
+                                                    alt="Smartphone Xiaomi Redmi Note 9 128GB Verde 4G - 4GB RAM" />
+                                            </div>
+                                            <div class="thumb-content">
+                                                <h4>Smartphone Xiaomi Redmi Note 9 128GB Verde 4G - 4GB RAM</h4>
+                                                <p class="item-price"><span>R$ 2.417,00</span></p>
+                                                <a href="#" class="btn btn-primary">Mais detalhes</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel controls -->
+                        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.container -->
+
+        <!-- NEWS -->
+        <div class="container-fluid">
+            <div class="row" style="background: #fafafafa;min-width: 88vw;">
+                <div class="title__contact mx-auto" id="quemsomos">Faça seu cadastro para receber ofertas
+                </div>
+                <form class="form-inline mx-auto mb-9">
+                    <input type="text" class="form-contact-control form-control-lg form-contact"
+                        placeholder="Digite seu email para receber novas ofertas">
+                    <button type="submit" class="btn-lg ml-3 btn-news hvr-glow">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <p>COPYRIGHT &copy; 2020 <a href="#">MarketInfo</a>. Todos os direitos reservados. </p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="./assets/js/custom.js"></script>
+    <script src="./assets/js/jquery.slim.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+</body>
+
+</html>
